@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up DSM interface",
+        "description": "Enter the details needed to connect to your DSM hub.",
+        "data": {
+          "api_endpoint": "API Endpoint",
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "username_too_short": "Username must be at least 3 characters long.",
+      "password_too_short": "Password must be at least 6 characters long."
+    }
+  }
+}
